@@ -1,14 +1,18 @@
 /*
 * HackerRank link: https://www.hackerrank.com/challenges/sock-merchant/problem
 * Title: sockmerchant.cpp
-* Abstract: The sockMerchant() function takes an array of integers representing colors, 
-*           and returns the number of pairs of matching colors that can be formed.
-*           Code outside of the sockMerchant() function was provided by hackerrank.
+* Abstract: The sockMerchant() function takes an array of integers representing
+*           colors, and returns the number of pairs of matching colors that can
+*           be formed. Code outside of the sockMerchant() function was provided
+*           by hackerrank, with the exception of 'include <bits/stdc++>' being 
+*           changed to the individual headers.
 * Author: Paul Whipp
 * Date: 01/18/2020
 */
 
-#include <bits/stdc++.h>
+#include <fstream>
+#include <iostream>
+#include <string>
 #include <unordered_map>
 
 using namespace std;
